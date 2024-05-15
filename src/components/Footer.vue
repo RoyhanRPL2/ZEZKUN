@@ -4,7 +4,7 @@
             <div class="flex flex-row items-center w-full gap-2 mb-4 sm:hidden">
                 <img class="w-[30%] lg:w-full" src="@/assets/images/zezkun-logo.png" alt="">
             </div>
-            <div class="flex flex-col mb-4 lg:mb-0">
+            <div class="flex flex-col mb-6 lg:mb-0">
                 <h1 class="font-bold hidden lg:flex lg:text-xl m-0 lg:mb-4">ZEZKUN</h1>
                 <h1 class="font-bold text-xl m-0 mb-0 lg:hidden">Our Company</h1>
                 <div class="flex flex-col gap-1 lg:gap-[10px]">
@@ -13,7 +13,7 @@
                     <a>Join Us</a>
                 </div>
             </div>
-            <div class="flex flex-col mb-4 lg:mb-0">
+            <div class="flex flex-col mb-6 lg:mb-0">
                 <h1 class="font-bold lg:text-xl m-0 lg:mb-4">INFORMATION</h1>
                 <div class="flex flex-col gap-1 lg:gap-[10px]">
                     <a>My Account</a>
