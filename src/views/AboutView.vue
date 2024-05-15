@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="flex flex-col text-[#0f1314] m-5 sm:m-10 items-center lg:mb-10 lg:m-0 lg:gap-20">
-      <h1 class="font-black mb-4 sm:mb-8 sm:text-4xl lg:text-6xl lg:mb-0">OUR HISTORY</h1>
+      <h1 class="font-black mb-4 text-xl sm:mb-8 sm:text-4xl lg:text-6xl lg:mb-0">OUR HISTORY</h1>
       <p class="text-sm sm:text-xl lg:text-2xl text-justify mb-4 sm:mb-8 lg:w-[45%] lg:mb-0">Starting out as a place for lovers of quality second-hand goods, zezkun was inspired by some of the iconic
         outdoor jacket brands in the mountaineering world. We believe that every climber deserves reliable and
         dependable gear, without having to sacrifice quality for price.</p>
