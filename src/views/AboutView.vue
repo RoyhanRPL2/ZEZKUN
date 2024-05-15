@@ -1,4 +1,10 @@
+<script setup>
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
+</script>
+
 <template>
+  < Header />
   <div class="flex flex-col sm:gap-16 lg:gap-32">
     <div class="flex flex-col justify-between m-5 sm:m-10 lg:m-[80px] sm:gap-[50px]">
       <div class="flex flex-col mb-10 sm:flex-row justify-between sm:gap-[39px] sm:m-0 lg:gap-[78px]">
@@ -33,4 +39,7 @@
         the outdoors and conquering mountain peaks is as strong as the air roaring on the mountaintops we love.</p>
     </div>
   </div>
+  < Footer />
 </template>
+
+
