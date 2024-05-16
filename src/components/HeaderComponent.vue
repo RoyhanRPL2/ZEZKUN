@@ -116,7 +116,7 @@ onMounted(() => {
         </li>
         <li>
           <a
-            href="#"
+            href="/about"
             class="no-underline text-black text-[40px] font-[700] leading-[145%] tracking-[0.16px] uppercase relative after:content-[''] after:absolute after:w-full after:h-[20px] after:bg-[#9FEA1C] after:bottom-0 after:left-0 after:z-[-1]"
             >about</a
           >
