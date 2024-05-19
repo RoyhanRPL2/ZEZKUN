@@ -1,0 +1,328 @@
+[
+  {
+    "id": 1,
+    "name": "Columbia Splash A Little",
+    "description": " Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions.",
+    "price": 250000,
+    "image1": "/assets/image/product-1.png",
+    "sizes": "L",
+    "colors": "White",
+    "category": "Waterproof"
+  },
+  {
+    "id": 2,
+    "name": "New Balance Windbreaker Jacket",
+    "description": "The Windbreaker is the perfect choice to protect you from strong winds when exploring the outdoors or doing outdoor activities. Designed with lightweight and windproof materials, this jacket provides effective protection without making you feel weighed down. With a stylish and functional design, the windbreaker is the right choice to keep you comfortable and stylish during your outdoor activities.",
+    "price": 150000,
+    "imageUrl": "/assets/image/product-2.png",
+    "sizes": "M",
+    "colors": "White",
+    "category": "Windbreaker"
+  },
+  {
+    "id": 3,
+    "name": "Nepa Parachute Jacket",
+    "description": "A lightweight jacket is the ideal solution for carrying extra protection without adding excess weight. Crafted from lightweight yet durable materials, these jackets provide light wind and weather protection without making you feel overloaded. With a minimalist design and easy folding, lightweight jackets are a practical and efficient choice for dynamic outdoor activities.",
+    "price": 200000,
+    "imageUrl": "/assets/image/product-4.png",
+    "sizes": "S",
+    "colors": "White"
+  },
+  {
+    "id": 4,
+    "name": "New Balance Dry 2 Tones Jacket",
+    "description": "Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions",
+    "price": 250000,
+    "imageUrl": "/assets/image/product-4.png",
+    "sizes": "S",
+    "colors": "white"
+  },
+  {
+    "id": 5,
+    "name": "Kolon Sport Ultra Outdoor",
+    "description": "Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions.",
+    "price": 300000,
+    "imageUrl": "/assets/image/product-5.png",
+    "sizes": "M",
+    "colors": "black"
+  },
+  {
+    "id": 6,
+    "name": "Blackyak Aqua Shield Jacket",
+    "description": "The Windbreaker is the perfect choice to protect you from strong winds when exploring the outdoors or doing outdoor activities. Designed with lightweight and windproof materials, this jacket provides effective protection without making you feel weighed down. With a stylish and functional design, the windbreaker is the right choice to keep you comfortable and stylish during your outdoor activities.",
+    "price": 200000,
+    "imageUrl": "/assets/image/product-5.png",
+    "sizes": "L",
+    "colors": "black"
+  },
+  {
+    "id": 7,
+    "name": "Kappa Outdoor Jacket",
+    "description": "The Windbreaker is the perfect choice to protect you from strong winds when exploring the outdoors or doing outdoor activities. Designed with lightweight and windproof materials, this jacket provides effective protection without making you feel weighed down. With a stylish and functional design, the windbreaker is the right choice to keep you comfortable and stylish during your outdoor activities.",
+    "price": 180000,
+    "imageUrl": "/assets/image/product-5.png    ",
+    "sizes": "L",
+    "colors": "black"
+  },
+  {
+    "id": 6,
+    "name": "Blackyak Aqua Shield Jacket",
+    "description": "The Windbreaker is the perfect choice to protect you from strong winds when exploring the outdoors or doing outdoor activities. Designed with lightweight and windproof materials, this jacket provides effective protection without making you feel weighed down. With a stylish and functional design, the windbreaker is the right choice to keep you comfortable and stylish during your outdoor activities.",
+    "price": 200000,
+    "imageUrl": "/assets/image/product-5.png",
+    "sizes": "L",
+    "colors": "black"
+  },
+  {
+    "id": 6,
+    "name": "Blackyak Aqua Shield Jacket",
+    "description": "The Windbreaker is the perfect choice to protect you from strong winds when exploring the outdoors or doing outdoor activities. Designed with lightweight and windproof materials, this jacket provides effective protection without making you feel weighed down. With a stylish and functional design, the windbreaker is the right choice to keep you comfortable and stylish during your outdoor activities.",
+    "price": 200000,
+    "imageUrl": "/assets/image/product-5.png",
+    "sizes": "L",
+    "colors": "black"
+  },
+  {
+    "id": 6,
+    "name": "Blackyak Aqua Shield Jacket",
+    "description": "The Windbreaker is the perfect choice to protect you from strong winds when exploring the outdoors or doing outdoor activities. Designed with lightweight and windproof materials, this jacket provides effective protection without making you feel weighed down. With a stylish and functional design, the windbreaker is the right choice to keep you comfortable and stylish during your outdoor activities.",
+    "price": 200000,
+    "imageUrl": "/assets/image/product-6.png",
+    "sizes": "L",
+    "colors": "black"
+  },
+  {
+    "id": 7,
+    "name": "Kappa Outdoor Jacket",
+    "description": " The Windbreaker is the perfect choice to protect you from strong winds when exploring the outdoors or doing outdoor activities. Designed with lightweight and windproof materials, this jacket provides effective protection without making you feel weighed down. With a stylish and functional design, the windbreaker is the right choice to keep you comfortable and stylish during your outdoor activities.",
+    "price": 180000,
+    "imageUrl": "/assets/image/product-7.png",
+    "sizes": "L",
+    "colors": "black"
+  },
+  {
+    "id": 8,
+    "name": "Lecaf Outdoor Vintage 90’s",
+    "description": "Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions.",
+    "price": 250000,
+    "imageUrl": "/assets/image/product-8.png",
+    "sizes": "S",
+    "colors": "black"
+  },
+  {
+    "id": 9,
+    "name": "Uniqlo Lightweight",
+    "description": "The Windbreaker is the perfect choice to protect you from strong winds when exploring the outdoors or doing outdoor activities. Designed with lightweight and windproof materials, this jacket provides effective protection without making you feel weighed down. With a stylish and functional design, the windbreaker is the right choice to keep you comfortable and stylish during your outdoor activities.",
+    "price": 150000,
+    "imageUrl": "/assets/image/product-9.png",
+    "sizes": "S",
+    "colors": "black"
+  },
+  {
+    "id": 10,
+    "name": "Wilson Preloved Jacket",
+    "description": "The Windbreaker is the perfect choice to protect you from strong winds when exploring the outdoors or doing outdoor activities. Designed with lightweight and windproof materials, this jacket provides effective protection without making you feel weighed down. With a stylish and functional design, the windbreaker is the right choice to keep you comfortable and stylish during your outdoor activities.",
+    "price": 200000,
+    "imageUrl": "/assets/image/product-10.png",
+    "sizes": "L",
+    "colors": "blue"
+  },
+  {
+    "id": 11,
+    "name": "Nepa Running Jacket",
+    "description": "A lightweight jacket is the ideal solution for carrying extra protection without adding excess weight. Crafted from lightweight yet durable materials, these jackets provide light wind and weather protection without making you feel overloaded. With a minimalist design and easy folding, lightweight jackets are a practical and efficient choice for dynamic outdoor activities.",
+    "price": 200000,
+    "imageUrl": "/assets/image/product-11.png",
+    "sizes": "L",
+    "colors": "blue"
+  },
+  {
+    "id": 12,
+    "name": "Discovery Fesyen Jacket",
+    "description": "The Windbreaker is the perfect choice to protect you from strong winds when exploring the outdoors or doing outdoor activities. Designed with lightweight and windproof materials, this jacket provides effective protection without making you feel weighed down. With a stylish and functional design, the windbreaker is the right choice to keep you comfortable and stylish during your outdoor activities.",
+    "price": 200000,
+    "imageUrl": "/assets/image/product-12.png",
+    "sizes": "L",
+    "colors": "grey"
+  },
+  {
+    "id": 13,
+    "name": "Outdoor Sports Jacket",
+    "description": "Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions.",
+    "price": 250000,
+    "imageUrl": "/assets/image/product-13.png",
+    "sizes": "L",
+    "colors": "navy"
+  },
+  {
+    "id": 14,
+    "name": "Ascent Prospecs Outdoor",
+    "description": "Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions.",
+    "price": 150000,
+    "imageUrl": "/assets/image/product-14.png",
+    "sizes": "M",
+    "colors": "pink"
+  },
+  {
+    "id": 15,
+    "name": "Millet Goretex Roc Session",
+    "description": "Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions.",
+    "price": 300000,
+    "imageUrl": "/assets/image/product-15.png",
+    "sizes": "S",
+    "colors": "purple"
+  },
+  {
+    "id": 16,
+    "name": "Lafuma Windstopper Jacket",
+    "description": "The Windbreaker is the perfect choice to protect you from strong winds when exploring the outdoors or doing outdoor activities. Designed with lightweight and windproof materials, this jacket provides effective protection without making you feel weighed down. With a stylish and functional design, the windbreaker is the right choice to keep you comfortable and stylish during your outdoor activities.",
+    "price": 200000,
+    "imageUrl": "/assets/image/product-16.png",
+    "sizes": "XL",
+    "colors": "orange"
+  },
+  {
+    "id": 17,
+    "name": "Blackyak Goretex Outdoor Yellow",
+    "description": "Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions",
+    "price": 250000,
+    "imageUrl": "/assets/image/product-17.png",
+    "sizes": "M",
+    "colors": "yellow"
+  },
+  {
+    "id": 18,
+    "name": " Blackyak Goretex Outdoor Green",
+    "description": " Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions.",
+    "price": 300000,
+    "imageUrl": "/assets/image/product-18.png",
+    "sizes": "L",
+    "colors": "green"
+  },
+  {
+    "id": 19,
+    "name": "Nepa X-VENT Technology White",
+    "description": " Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions.",
+    "price": 250000,
+    "imageUrl": "/assets/image/product-19.png",
+    "sizes": "XL",
+    "colors": "white"
+  },
+  {
+    "id": 20,
+    "name": "Nepa X-VENT Technology Grey",
+    "description": "Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions.",
+    "price": 250000,
+    "imageUrl": "/assets/image/product-20.png",
+    "sizes": "S",
+    "colors": "grey"
+  },
+  {
+    "id": 21,
+    "name": "Nepa Running Jacket",
+    "description": "A lightweight jacket is the ideal solution for carrying extra protection without adding excess weight. Crafted from lightweight yet durable materials, these jackets provide light wind and weather protection without making you feel overloaded. With a minimalist design and easy folding, lightweight jackets are a practical and efficient choice for dynamic outdoor activities.",
+    "price": 200000,
+    "imageUrl": "/assets/image/product-21.png",
+    "sizes": "XL",
+    "colors": "blue"
+  },
+  {
+    "id": 22,
+    "name": "Columbia Titanium Omni-Tech",
+    "description": "Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions.",
+    "price": 250000,
+    "imageUrl": "/assets/image/product-22.png",
+    "sizes": "L",
+    "colors": "blue"
+  },
+  {
+    "id": 23,
+    "name": "Columbia Omnitech Outdoor",
+    "description": "Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions.",
+    "price": 250000,
+    "imageUrl": "/assets/image/product-23.png",
+    "sizes": "L",
+    "colors": "navy"
+  },
+  {
+    "id": 24,
+    "name": "The North Face Dryvent Jacket",
+    "description": "Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions.",
+    "price": 250000,
+    "imageUrl": "/assets/image/product-24.png",
+    "sizes": "XL",
+    "colors": "black"
+  },
+  {
+    "id": 25,
+    "name": "New Balance Left Pocket Gorpcore",
+    "description": "The Windbreaker is the perfect choice to protect you from strong winds when exploring the outdoors or doing outdoor activities. Designed with lightweight and windproof materials, this jacket provides effective protection without making you feel weighed down. With a stylish and functional design, the windbreaker is the right choice to keep you comfortable and stylish during your outdoor activities.",
+    "price": 150000,
+    "imageUrl": "/assets/image/product-25.png",
+    "sizes": "XL",
+    "colors": "navy"
+  },
+  {
+    "id": 26,
+    "name": "Millet Windedge Performance",
+    "description": "The Windbreaker is the perfect choice to protect you from strong winds when exploring the outdoors or doing outdoor activities. Designed with lightweight and windproof materials, this jacket provides effective protection without making you feel weighed down. With a stylish and functional design, the windbreaker is the right choice to keep you comfortable and stylish during your outdoor activities.",
+    "price": 200000,
+    "imageUrl": "/assets/image/product-26.png",
+    "sizes": "S",
+    "colors": "black"
+  },
+  {
+    "id": 27,
+    "name": "Eider Shoftshell Jacket",
+    "description": "The Windbreaker is the perfect choice to protect you from strong winds when exploring the outdoors or doing outdoor activities. Designed with lightweight and windproof materials, this jacket provides effective protection without making you feel weighed down. With a stylish and functional design, the windbreaker is the right choice to keep you comfortable and stylish during your outdoor activities.",
+    "price": 200000,
+    "imageUrl": "/assets/image/product-27.png",
+    "sizes": "M",
+    "colors": "green"
+  },
+  {
+    "id": 28,
+    "name": "The North Face Calla Coat",
+    "description": "The Windbreaker is the perfect choice to protect you from strong winds when exploring the outdoors or doing outdoor activities. Designed with lightweight and windproof materials, this jacket provides effective protection without making you feel weighed down. With a stylish and functional design, the windbreaker is the right choice to keep you comfortable and stylish during your outdoor activities.",
+    "price": 200000,
+    "imageUrl": "/assets/image/product-28.png",
+    "sizes": "S",
+    "colors": "red"
+  },
+  {
+    "id": 29,
+    "name": " Dickies Outdoor ECWCS",
+    "description": "Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions.",
+    "price": 250000,
+    "imageUrl": "/assets/image/product-29.png",
+    "sizes": "L",
+    "colors": "black"
+  },
+  {
+    "id": 30,
+    "name": "The North Face Pacific Snowboard",
+    "description": "Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions.",
+    "price": 250000,
+    "imageUrl": "/assets/image/product-30.png",
+    "sizes": "XL",
+    "colors": "white"
+  },
+  {
+    "id": 31,
+    "name": "Blackyak Outdoor Black Jacket",
+    "description": "Waterproof jackets are the ideal choice to keep you dry and comfortable in inclement weather. Designed with advanced waterproof technology, this jacket offers maximum protection from rain and dew, while still maintaining breathability for optimal comfort. With quality materials and stylish designs, waterproof jackets are an indispensable choice for outdoor adventures in all weather conditions.",
+    "price": 250000,
+    "imageUrl": "/assets/image/product-31.png",
+    "sizes": "XL",
+    "colors": "black"
+  },
+  {
+    "id": 32,
+    "name": "Dickies Left Pocket Outdoor",
+    "description": "The Windbreaker is the perfect choice to protect you from strong winds when exploring the outdoors or doing outdoor activities. Designed with lightweight and windproof materials, this jacket provides effective protection without making you feel weighed down. With a stylish and functional design, the windbreaker is the right choice to keep you comfortable and stylish during your outdoor activities",
+    "price": 200000,
+    "imageUrl": "/assets/image/product-32.png",
+    "sizes": "L",
+    "colors": "navy"
+  }
+]
