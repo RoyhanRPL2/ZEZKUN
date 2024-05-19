@@ -51,7 +51,7 @@ onMounted(() => {
                 <a href="#">ORDERS</a>
                 <a href="#">VOUCHER</a>
             </div>
-            <div class="content relative">
+            <div class="content">
                 <ProfileComponent class="profile-component" />
                 <OrdersComponent class="orders-component" />
                 <VoucherComponent class="voucher-component" />
