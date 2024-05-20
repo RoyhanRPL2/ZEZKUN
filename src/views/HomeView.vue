@@ -6,6 +6,7 @@ import BrandsSection from '@/components/BrandsSection.vue';
 import TopProductSection from '@/components/TopProductSection.vue';
 import TestimoniSection from '@/components/TestimoniSection.vue';
 import BenefitSection from '@/components/BenefitSection.vue';
+import AtcSection from '@/components/AtcSection.vue';
 </script>
 
 <template>
@@ -18,4 +19,5 @@ import BenefitSection from '@/components/BenefitSection.vue';
   <TopProductSection />
   <TestimoniSection /> 
   <BenefitSection />
+  <AtcSection />
 </template>
