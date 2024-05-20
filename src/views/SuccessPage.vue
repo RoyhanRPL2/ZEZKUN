@@ -15,18 +15,12 @@
         <div class="flex flex-col gap-8 sm:gap-[60px]">
             <h1 class="font-black text-center sm:text-start text-black sm:text-3xl lg:text-5xl">MAYBE YOU LIKE</h1>
             <div class="lg:flex justify-between hidden gap-[50px]">
-                <Product v-for="index in 4" :key="index" />
-            </div>
-            <div class="sm:flex justify-between hidden gap-[50px] lg:hidden">
-                <Product v-for="index in 3" :key="index" />
-            </div>
-            <div class="flex w-full justify-between sm:hidden">
-                <Product v-for="index in 2" :key="index" />
+                <Product />
             </div>
         </div>
     </div>
 </template>
 
 <script setup>
-import Product from '../components/Product.vue'
+import Product from '../components/ProductComponent.vue'
 </script>
