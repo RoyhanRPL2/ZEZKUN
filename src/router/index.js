@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import ProductDetail from '@/views/ProductDetail.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,6 +21,11 @@ const router = createRouter({
       path: '/checkout',
       name: 'checkout',
       component: () => import('../views/ProductCheckout.vue')
+    },
+    {
+      path: '/product-detail/:id',
+      name: 'product-detail',
+      component: ProductDetail
     }
   ]
 })
