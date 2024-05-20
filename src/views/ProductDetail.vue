@@ -7,20 +7,20 @@ import { ref, onMounted } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 
 const product = ref(null);
-const mainImageUrl = ref(''); // Reactive variable for the main image URL
-const imageList = ref([]); // List of product images
+const mainImageUrl = ref('');
+const imageList = ref([]);
 const route = useRoute();
 const router = useRouter();
 
 const fetchProductData = async () => {
     const productId = route.params.id;
     try {
-        const response = await fetch('/src/components/data.json'); // Replace with actual path to your JSON file
+        const response = await fetch('/src/components/data.json');
         const data = await response.json();
         product.value = data.find(p => p.id == productId);
         if (product.value) {
             mainImageUrl.value = product.value.imageUrl; // Set the initial main image
-            imageList.value = [product.value.imageUrl, product.value.image2, product.value.image3]; // Add all images to the list
+            imageList.value = [product.value.imageUrl, product.value.image2, product.value.image3]; 
         }
     } catch (error) {
         console.error('Error fetching product data:', error);

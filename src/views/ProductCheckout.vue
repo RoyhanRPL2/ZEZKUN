@@ -92,9 +92,11 @@ import BriIcon from "@/assets/images/bri-logo.png";
                         </div>
                     </div>
                 </div>
-                <button
-                    class="btn shadow w-full py-[1rem] px-[5rem] border border-solid border-[#000] bg-[#9FEA1C] text-[1rem] font-[800]">PLACE
-                    ORDER</button>
+                <RouterLink to="/success"
+                    class="checkout-user-add-to-cart flex justify-center items-center py-[1.5rem]">
+                    <button
+                        class="btn shadow w-full py-[1rem] px-[5rem] border border-solid border-[#000] bg-[#9FEA1C] text-[1rem] font-[800]">PLACE ORDER</button>
+                </RouterLink>
             </div>
             <div class="cart-summary bg-[#9FEA1C] p-[1.5rem] h-fit flex flex-col gap-[1rem]">
                 <h3 class="text-[1.5rem] uppercase font-[700]">YOUR CART</h3>
