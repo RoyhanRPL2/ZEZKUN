@@ -4,6 +4,7 @@ import CarouselImage from '@/components/CarouselImage.vue'
 import CategoriesSection from '@/components/CategoriesSection.vue'
 import BrandsSection from '@/components/BrandsSection.vue';
 import TopProductSection from '@/components/TopProductSection.vue';
+import TestimoniSection from '@/components/TestimoniSection.vue';
 </script>
 
 <template>
@@ -13,5 +14,6 @@ import TopProductSection from '@/components/TopProductSection.vue';
   </main>
   <CategoriesSection />
   <BrandsSection />
-  <TopProductSection /> 
+  <TopProductSection />
+  <TestimoniSection /> 
 </template>
