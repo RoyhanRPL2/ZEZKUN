@@ -6,9 +6,7 @@
     "price": 250000,
     "imageUrl": "/src/assets/image/product-1.png",
     "sizes": "L",
-    "colors": [
-      "White"
-    ],
+    "colors": ["White"],
     "category": "Waterproof"
   },
   {
@@ -18,9 +16,7 @@
     "price": 150000,
     "imageUrl": "/src/assets/image/product-2.png",
     "sizes": "M",
-    "colors": [
-      "White"
-    ],
+    "colors": ["White"],
     "category": "Windbreaker"
   },
   {
@@ -30,9 +26,7 @@
     "price": 200000,
     "imageUrl": "/src/assets/image/product-3.png",
     "sizes": "S",
-    "colors": [
-      "White"
-    ],
+    "colors": ["White"],
     "category": "Lightweight"
   },
   {
@@ -42,9 +36,7 @@
     "price": 250000,
     "imageUrl": "/src/assets/image/product-4.png",
     "sizes": "S",
-    "colors": [
-      "white"
-    ],
+    "colors": ["white"],
     "category": "Waterproof"
   },
   {
@@ -54,9 +46,7 @@
     "price": 300000,
     "imageUrl": "/src/assets/image/product-5.png",
     "sizes": "M",
-    "colors": [
-      "black"
-    ],
+    "colors": ["black"],
     "category": "Waterproof"
   },
   {
@@ -66,9 +56,7 @@
     "price": 200000,
     "imageUrl": "/src/assets/image/product-6.png",
     "sizes": "L",
-    "colors": [
-      "black"
-    ],
+    "colors": ["black"],
     "category": "Windbreaker"
   },
   {
@@ -78,10 +66,7 @@
     "price": 180000,
     "imageUrl": "/src/assets/image/product-7.png",
     "sizes": "M",
-    "colors": [
-      "black",
-      "blue"
-    ],
+    "colors": ["black", "blue"],
     "category": "Windbreaker"
   },
   {
@@ -91,10 +76,7 @@
     "price": 200000,
     "imageUrl": "/src/assets/image/product-8.png",
     "sizes": "S",
-    "colors": [
-      "black",
-      "orange"
-    ],
+    "colors": ["black", "orange"],
     "category": "Waterproof"
   },
   {
@@ -104,9 +86,7 @@
     "price": 200000,
     "imageUrl": "/src/assets/image/product-9.png",
     "sizes": "S",
-    "colors": [
-      "grey"
-    ],
+    "colors": ["grey"],
     "category": "Lightweight"
   },
   {
@@ -116,9 +96,7 @@
     "price": 200000,
     "imageUrl": "/src/assets/image/product-10.png",
     "sizes": "L",
-    "colors": [
-      "blue"
-    ],
+    "colors": ["blue"],
     "category": "Windbreaker"
   },
   {
@@ -128,9 +106,7 @@
     "price": 180000,
     "imageUrl": "/src/assets/image/product-11.png",
     "sizes": "M",
-    "colors": [
-      "blue"
-    ],
+    "colors": ["blue"],
     "category": "Lightweight"
   },
   {
@@ -140,9 +116,7 @@
     "price": 250000,
     "imageUrl": "/src/assets/image/product-12.png",
     "sizes": "L",
-    "colors": [
-      "grey"
-    ],
+    "colors": ["grey"],
     "category": "Windbreaker"
   },
   {
@@ -152,9 +126,7 @@
     "price": 150000,
     "imageUrl": "/src/assets/image/product-13.png",
     "sizes": "L",
-    "colors": [
-      "navy"
-    ],
+    "colors": ["navy"],
     "category": "Waterproof"
   },
   {
@@ -164,9 +136,7 @@
     "price": 200000,
     "imageUrl": "/src/assets/image/product-14.png",
     "sizes": "M",
-    "colors": [
-      "pink"
-    ],
+    "colors": ["pink"],
     "category": "Waterproof"
   },
   {
@@ -176,10 +146,7 @@
     "price": 200000,
     "imageUrl": "/src/assets/image/product-15.png",
     "sizes": "S",
-    "colors": [
-      "black",
-      "purple"
-    ],
+    "colors": ["black", "purple"],
     "category": "Waterproof"
   },
   {
@@ -189,9 +156,7 @@
     "price": 200000,
     "imageUrl": "/src/assets/image/product-16.png",
     "sizes": "XL",
-    "colors": [
-      "orange"
-    ],
+    "colors": ["orange"],
     "category": "Windbreaker"
   },
   {
@@ -201,9 +166,7 @@
     "price": 250000,
     "imageUrl": "/src/assets/image/product-17.png",
     "sizes": "M",
-    "colors": [
-      "yellow"
-    ],
+    "colors": ["yellow"],
     "category": "Waterproof"
   },
   {
@@ -213,9 +176,7 @@
     "price": 150000,
     "imageUrl": "/src/assets/image/product-18.png",
     "sizes": "L",
-    "colors": [
-      "green"
-    ],
+    "colors": ["green"],
     "category": "Waterproof"
   },
   {
@@ -225,9 +186,7 @@
     "price": 300000,
     "imageUrl": "/src/assets/image/product-19.png",
     "sizes": "XL",
-    "colors": [
-      "white"
-    ],
+    "colors": ["white"],
     "category": "Waterproof"
   },
   {
@@ -237,9 +196,7 @@
     "price": 200000,
     "imageUrl": "/src/assets/image/product-20.png",
     "sizes": "S",
-    "colors": [
-      "grey"
-    ],
+    "colors": ["grey"],
     "category": "Waterproof"
   },
   {
@@ -249,9 +206,7 @@
     "price": 250000,
     "imageUrl": "/src/assets/image/product-21.png",
     "sizes": "XL",
-    "colors": [
-      "blue"
-    ],
+    "colors": ["blue"],
     "category": "Lightweight"
   },
   {
@@ -261,9 +216,7 @@
     "price": 300000,
     "imageUrl": "/src/assets/image/product-22.png",
     "sizes": "L",
-    "colors": [
-      "blue"
-    ],
+    "colors": ["blue"],
     "category": "Waterproof"
   },
   {
@@ -273,10 +226,7 @@
     "price": 250000,
     "imageUrl": "/src/assets/image/product-23.png",
     "sizes": "M",
-    "colors": [
-      "purple",
-      "navy"
-    ],
+    "colors": ["purple", "navy"],
     "category": "Waterproof"
   },
   {
@@ -286,9 +236,7 @@
     "price": 250000,
     "imageUrl": "/src/assets/image/product-24.png",
     "sizes": "XL",
-    "colors": [
-      "black"
-    ],
+    "colors": ["black"],
     "category": "Waterproof"
   },
   {
@@ -298,9 +246,7 @@
     "price": 200000,
     "imageUrl": "/src/assets/image/product-25.png",
     "sizes": "XL",
-    "colors": [
-      "navy"
-    ],
+    "colors": ["navy"],
     "category": "Windbreaker"
   },
   {
@@ -310,9 +256,7 @@
     "price": 250000,
     "imageUrl": "/src/assets/image/product-26.png",
     "sizes": "S",
-    "colors": [
-      "black"
-    ],
+    "colors": ["black"],
     "category": "Windbreaker"
   },
   {
@@ -322,9 +266,7 @@
     "price": 250000,
     "imageUrl": "/src/assets/image/product-27.png",
     "sizes": "M",
-    "colors": [
-      "green"
-    ],
+    "colors": ["green"],
     "category": "Windbreaker"
   },
   {
@@ -334,9 +276,7 @@
     "price": 250000,
     "imageUrl": "/src/assets/image/product-28.png",
     "sizes": "S",
-    "colors": [
-      "red"
-    ],
+    "colors": ["red"],
     "category": "Windbreaker"
   },
   {
@@ -346,9 +286,7 @@
     "price": 150000,
     "imageUrl": "/src/assets/image/product-29.png",
     "sizes": "L",
-    "colors": [
-      "black"
-    ],
+    "colors": ["black"],
     "category": "Windbreaker"
   },
   {
@@ -358,9 +296,7 @@
     "price": 200000,
     "imageUrl": "/src/assets/image/product-30.png",
     "sizes": "XL",
-    "colors": [
-      "white"
-    ],
+    "colors": ["white"],
     "category": "Waterproof"
   },
   {
@@ -370,9 +306,7 @@
     "price": 200000,
     "imageUrl": "/src/assets/image/product-31.png",
     "sizes": "XL",
-    "colors": [
-      "black"
-    ],
+    "colors": ["black"],
     "category": "Waterproof"
   },
   {
@@ -382,9 +316,7 @@
     "price": 200000,
     "imageUrl": "/src/assets/image/product-32.png",
     "sizes": "L",
-    "colors": [
-      "navy"
-    ],
+    "colors": ["navy"],
     "category": "Windbreaker"
   }
 ]
