@@ -80,11 +80,9 @@ onMounted(() => {
           >
         </li>
         <li>
-          <a
-            href="#"
+          <RouterLink to="/about"
             class="no-underline text-[#0F1314] text-[16px] not-italic font-[700] leading-[145%] tracking-[0.16px] uppercase relative before:content-[''] before:absolute before:w-0 before:h-[10px] before:bg-[#9FEA1C] before:bottom-0 before:left-0 before:duration-[0.5s] before:z-[-1] hover:before:w-full"
-            >about</a
-          >
+            >about</RouterLink>
         </li>
       </ul>
     </div>
@@ -115,11 +113,9 @@ onMounted(() => {
           >
         </li>
         <li>
-          <a
-            href="/about"
+          <RouterLink to="/about" @click="closeMenuMobile"
             class="no-underline text-black text-[40px] font-[700] leading-[145%] tracking-[0.16px] uppercase relative after:content-[''] after:absolute after:w-full after:h-[20px] after:bg-[#9FEA1C] after:bottom-0 after:left-0 after:z-[-1]"
-            >about</a
-          >
+            >about</RouterLink>
         </li>
         <li>
           <a
@@ -142,11 +138,10 @@ onMounted(() => {
       <a href="#" class="py-[10px] px-[15px] justify-center items-center float-left"
         ><img :src="SearchIcon" alt="Search Icon"
       /></a>
-      <a
-        href="#"
-        class="py-[10px] px-[15px] justify-center items-center float-left pr-0 sm:pr-[15px] lg:pr-[15px]"
+      <RouterLink to="/cart"
+        class="py-[10px] px-[15px] justify-center items-center float-left"
         ><img :src="CartIcon" alt="Cart Icon"
-      /></a>
+      /></RouterLink>
       <a
         href="#"
         class="py-[10px] px-[15px] justify-center items-center float-left hidden sm:block lg:block"

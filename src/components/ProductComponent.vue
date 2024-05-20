@@ -31,7 +31,7 @@ const formatPrice = (price) => {
 </script>
 <template>
     <div v-for="product in limitedProducts" :key="product.id">
-        <div class="flex flex-col w-[150px] sm:w-[300px] h-fit gap-[10px]">
+        <div class="lg:flex hidden flex-col w-[150px] sm:w-[300px] h-fit gap-[10px]">
             <div class="w-full bg-[#F7F4F7] p-4">
                 <img class="object-cover" :src="product.imageUrl" alt="">
             </div>
