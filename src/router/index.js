@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import ProductDetail from '@/views/ProductDetail.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -18,14 +17,24 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
-      path: '/checkout',
-      name: 'checkout',
-      component: () => import('../views/ProductCheckout.vue')
+      path: '/success',
+      name: 'success',
+      component: () => import('../views/SuccessPage.vue')
+    },
+    {
+      path: '/size-guide',
+      name: 'size-guide',
+      component: () => import('../views/SizeGuide.vue')
+    },
+    {
+      path: '/product',
+      name: 'product',
+      component: () => import('../views/Product.vue')
     },
     {
       path: '/product-detail/:id',
       name: 'product-detail',
-      component: ProductDetail
+      component: () => import('../views/ProductDetail.vue')
     },
     {
       path: '/cart',
@@ -33,9 +42,9 @@ const router = createRouter({
       component: () => import('../views/ShoppingCart.vue')
     },
     {
-      path: '/success',
-      name: 'success',
-      component: () => import('../views/SuccessPage.vue')
+      path: '/checkout',
+      name: 'checkout',
+      component: () => import('../views/ProductCheckout.vue')
     },
     {
       path: '/profile',

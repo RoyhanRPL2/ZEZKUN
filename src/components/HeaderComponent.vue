@@ -73,11 +73,9 @@ onMounted(() => {
     <div class="header-menu hidden sm:block lg:block">
       <ul class="flex items-center gap-[30px]">
         <li>
-          <a
-            href="#"
+          <RouterLink to="/product"
             class="no-underline text-[#0F1314] text-[16px] not-italic font-[700] leading-[145%] tracking-[0.16px] uppercase relative before:content-[''] before:absolute before:w-0 before:h-[10px] before:bg-[#9FEA1C] before:bottom-0 before:left-0 before:duration-[0.5s] before:z-[-1] hover:before:w-full"
-            >product</a
-          >
+            >product</RouterLink>
         </li>
         <li>
           <RouterLink to="/about"
@@ -127,13 +125,15 @@ onMounted(() => {
       </ul>
     </div>
 
-    <div class="header-logo hidden sm:block lg:block">
-      <img
-        :src="ZezkunLogo"
-        alt="Zezkun Logo"
-        class="mix-blend-difference w-[55px] h-[55px] cursor-pointer"
-      />
-    </div>
+    <RouterLink to="/">
+      <div class="header-logo hidden sm:block lg:block">
+        <img
+          :src="ZezkunLogo"
+          alt="Zezkun Logo"
+          class="mix-blend-difference w-[55px] h-[55px] cursor-pointer"
+        />
+      </div>
+    </RouterLink>
     <div class="header-icons">
       <a href="#" class="py-[10px] px-[15px] justify-center items-center float-left"
         ><img :src="SearchIcon" alt="Search Icon"
