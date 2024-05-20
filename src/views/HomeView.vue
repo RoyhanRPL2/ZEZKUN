@@ -7,6 +7,7 @@ import TopProductSection from '@/components/TopProductSection.vue';
 import TestimoniSection from '@/components/TestimoniSection.vue';
 import BenefitSection from '@/components/BenefitSection.vue';
 import AtcSection from '@/components/AtcSection.vue';
+import NewProduct from '@/components/NewProduct.vue';
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import AtcSection from '@/components/AtcSection.vue';
     <!-- <TheWelcome /> -->
   </main>
   <CategoriesSection />
+  <NewProduct />
   <BrandsSection />
   <TopProductSection />
   <TestimoniSection /> 
