@@ -1,34 +1,50 @@
+<script setup>
+import { ref, computed, onMounted } from 'vue';
+
+const products = ref([]);
+
+const limitedProducts = computed(() => {
+    return products.value.slice(4, 8);
+});
+
+const formatColors = (colors) => {
+    return colors.join(', ');
+};
+
+const formatPrice = (price) => {
+    return price.toLocaleString('en-US', { style: 'currency', currency: 'IDR' });
+};
+
+onMounted(() => {
+    fetch('/src/components/data.json')
+        .then(response => response.json())
+        .then(data => {
+            products.value = data;
+        })
+        .catch(error => {
+            console.error('Error fetching product data:', error);
+        });
+});
+</script>
+
 <template>
-    <section class="bottom-section lg:py-[4rem] lg:px-[5rem] py-[2rem] px-[0.9rem] w-full">
-        <h1 class="lg:text-[60px] font-[900] leading-[-1.5px] text-[2rem]">MAYBE YOU LIKE</h1>
-        <div class="product-list">
-            <div class="product-card w-[400px] flex flex-col gap-[1rem]">
-                <div class="img-container">
-                    <img src="https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/088/283/387/original/1204022_01.jpg.jpeg?action=crop&width=600"
-                        alt="" />
+    <div class="lg:flex hidden flex-col gap-8 sm:gap-[60px] px-[5rem] my-[2rem]">
+        <h1 class="font-black text-center sm:text-start text-black sm:text-3xl lg:text-5xl">MAYBE YOU LIKE</h1>
+        <div class="lg:flex justify-between gap-[50px]">
+            <div v-for="product in limitedProducts" :key="product.id">
+                <div class="flex flex-col w-[150px] sm:w-[300px] h-fit gap-[10px]">
+                    <div class="w-full bg-[#F7F4F7] p-4">
+                        <img class="object-cover" :src="product.imageUrl" alt="">
+                    </div>
+                    <div class="flex flex-col mb-[5px] gap-[5px] sm:mb-[10px] sm:gap-[10px]">
+                        <h1 class="font-medium text-sm sm:text-xl text-black">{{ product.name }}</h1>
+                        <p class="text-[1rem] sm:text-sm text-black">{{ formatColors(product.colors) }}</p>
+                        <h2 class="font-medium text-sm sm:text-xl text-black">{{ formatPrice(product.price) }}</h2>
+                    </div>
                 </div>
-                <h3 class="font-[700]">Supreme x Umbro Snap Sleeve Jacket 'Black'</h3>
-                <p>IDR8.000.000</p>
-            </div>
-            <div class="product-card w-[400px] flex flex-col gap-[1rem]">
-                <div class="img-container">
-                    <img src="https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/096/049/853/original/1337289_01.jpg.jpeg?action=crop&width=600"
-                        alt="" />
-                </div>
-                <h3 class="font-[700]">Supreme x Umbro Hooded Anorak 'Dark Purple'</h3>
-                <p>IDR3.000.000</p>
-            </div>
-            <div class="product-card w-[400px] flex flex-col gap-[1rem]">
-                <div class="img-container w-fit">
-                    <img class="w-full object-cover"
-                        src="https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/085/166/798/original/1141832_01.jpg.jpeg?action=crop&width=600"
-                        alt="" />
-                </div>
-                <h3 class="font-[700]">Stussy Basic Zip Hoodie 'Black'</h3>
-                <p>IDR3.000.000</p>
             </div>
         </div>
-    </section>
+    </div>
 </template>
 
 <style scoped>
@@ -53,6 +69,7 @@
     .product-card .img-container {
         width: 100%;
     }
+
     .product-card .img-container img {
         width: 100%;
         object-fit: cover;
