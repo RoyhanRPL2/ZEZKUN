@@ -26,6 +26,11 @@ const router = createRouter({
       path: '/size-guide',
       name: 'size-guide',
       component: () => import('../views/SizeGuide.vue')
+    },
+    {
+      path: '/product',
+      name: 'product',
+      component: () => import('../views/Product.vue')
     }
   ]
 })
