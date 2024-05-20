@@ -36,6 +36,11 @@ const router = createRouter({
       path: '/success',
       name: 'success',
       component: () => import('../views/SuccessPage.vue')
+    },
+    {
+      path: '/profile',
+      name: 'profile',
+      component: () => import('../views/ProfileView.vue')
     }
   ]
 })

@@ -142,11 +142,10 @@ onMounted(() => {
         class="py-[10px] px-[15px] justify-center items-center float-left"
         ><img :src="CartIcon" alt="Cart Icon"
       /></RouterLink>
-      <a
-        href="#"
-        class="py-[10px] px-[15px] justify-center items-center float-left hidden sm:block lg:block"
+      <RouterLink to="/profile"
+        class="py-[10px] px-[15px] justify-center items-center float-left"
         ><img :src="UserIcon" alt="User Icon"
-      /></a>
+      /></RouterLink>
     </div>
   </header>
 </template>
