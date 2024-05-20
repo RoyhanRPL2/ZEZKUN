@@ -20,8 +20,6 @@ import BriIcon from "@/assets/images/bri-logo.png";
                             <label class="text-[1rem] font-[700]" for="">EMAIL</label>
                             <input class="border border-[#000] p-[0.5rem] text-[1rem] font-[700] mb-[0.5rem]"
                                 type="text">
-                            <button class="btn text-[1rem] py-[1rem] border border-solid border-[#000] bg-[#9FEA1C]"
-                                id="checkout-contact-button">SAVE & CONTINUE</button>
                         </div>
                     </div>
                 </div>
@@ -46,8 +44,6 @@ import BriIcon from "@/assets/images/bri-logo.png";
                                 <input class="border border-[#000] text-[1rem] p-[0.5rem]" type="number">
                             </div>
                         </div>
-                        <button class="btn text-[1rem] py-[1rem] border border-solid border-[#000] bg-[#9FEA1C]"
-                            id="checkout-contact-button">SAVE & CONTINUE</button>
                     </div>
                 </div>
                 <div class="checkout-user-delivery-options pb-[1.5rem] border-b border-solid border-[#000]">
@@ -63,8 +59,6 @@ import BriIcon from "@/assets/images/bri-logo.png";
                                 <label class="text-[1rem] font-[700] uppercase" for="express">Express Delivery</label>
                             </div>
                         </div>
-                        <button class="btn text-[1rem] py-[1rem] border border-solid border-[#000] bg-[#9FEA1C] w-full"
-                            id="checkout-contact-button">SAVE & CONTINUE</button>
                     </div>
                 </div>
                 <div class="checkout-user-payment pb-[1.5rem] border-b border-solid border-[#000]">
@@ -96,8 +90,6 @@ import BriIcon from "@/assets/images/bri-logo.png";
                                 </div>
                             </div>
                         </div>
-                        <button class="btn text-[1rem] py-[1rem] border border-solid border-[#000] bg-[#9FEA1C] w-full"
-                            id="checkout-contact-button">SAVE & CONTINUE</button>
                     </div>
                 </div>
                 <button
