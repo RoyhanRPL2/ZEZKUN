@@ -19,7 +19,7 @@ onMounted(() => {
 
 // Computed property to get only the first 3 products
 const limitedProducts = computed(() => {
-    return products.value.slice(4, 7);
+    return products.value.slice(4, 8);
 });
 
 const formatColors = (colors) => {
@@ -38,7 +38,7 @@ const formatPrice = (price) => {
         </section>
         <section
             class="shopping-cart-main-section lg:px-[5rem] flex lg:flex-row flex-col lg:justify-between gap-[1rem] p-[1rem]">
-            <div class="product-list-container flex flex-col gap-[1rem]">
+            <div class="product-list-container flex flex-col gap-[2rem]">
                 <div v-for="product in limitedProducts" :key="product.id"
                     class="product-item flex lg:flex-row flex-col lg:items-center w-full border border-solid border-[#000] lg:border-none lg:p-0 p-[1rem]">
                     <div class="product-item-image lg:w-[200px] w-full">
@@ -70,11 +70,29 @@ const formatPrice = (price) => {
                     <p class="text-[1rem] font-[800]">IDR 3.000.000</p>
                 </div>
                 <router-link to="/checkout">
-                    <button class="checkout-button bg-[#000] text-[#fff] text-[1rem] font-[800] uppercase py-[0.5rem] w-full">
+                    <button
+                        class="checkout-button bg-[#000] text-[#fff] text-[1rem] font-[800] uppercase py-[0.5rem] w-full">
                         checkout
                     </button>
                 </router-link>
             </div>
         </section>
+        <div class="lg:flex hidden flex-col gap-8 sm:gap-[60px] px-[5rem] mt-[2rem]">
+            <h1 class="font-black text-center sm:text-start text-black sm:text-3xl lg:text-5xl">MAYBE YOU LIKE</h1>
+            <div class="lg:flex justify-between gap-[50px]">
+                <div v-for="product in limitedProducts" :key="product.id">
+                    <div class="flex flex-col w-[150px] sm:w-[300px] h-fit gap-[10px]">
+                        <div class="w-full bg-[#F7F4F7] p-4">
+                            <img class="object-cover" :src="product.imageUrl" alt="">
+                        </div>
+                        <div class="flex flex-col mb-[5px] gap-[5px] sm:mb-[10px] sm:gap-[10px]">
+                            <h1 class="font-medium text-sm sm:text-xl text-black">{{ product.name }}</h1>
+                            <p class="text-[1rem] sm:text-sm text-black">{{ formatColors(product.colors) }}</p>
+                            <h2 class="font-medium text-sm sm:text-xl text-black">{{ formatPrice(product.price) }}</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
